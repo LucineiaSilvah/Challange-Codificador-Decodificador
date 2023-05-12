@@ -18,8 +18,12 @@ body{
     width: 100wh;
 }
 header{
-  
+    height: 100px;
     padding: 20px;
+}
+header img {
+    width: 80px;
+    height: 80px;
 }
 
 section{
