@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsivo.css">
+    <script src="https://kit.fontawesome.com/784205f3d6.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style-global.css">
+    <title>Codificador / Decodificador</title>
+</head>
+
+<body>
+<div class="container">
+
+   
+    <header>
+        <img src="/img/logo.svg" alt="">
+
+
+    </header>
+    <main class="conteudo">
+        <section class="caixa-texto-normal">
+
+            <input type="text" name="texto" id="texto" placeholder="Digite Seu texto" >
+               
+            
+            <div class="botoes">
+                <span onclick="reiniciar();" class="bt-reload">
+                   <div>
+                    <i class="fa-solid fa-rotate"></i>
+                   </div>
+                    
+                    <span class=" alert">
+                        <i class="fa-solid fa-triangle-exclamation"></i>Apenas Letras minusculas
+                    </span>
+                
+                </span>
+                
+                <button class="bt-01" onclick="criptografar()">
+                    <a href="#"> criptografar</a>
+
+                </button>
+                <button class="bt-02" onclick="decriptografar()">
+                    <a href="#">decriptografar</a>
+                </button>
+            </div>
+        </section>
+        <section class="caixa-texto-encriptado">
+            <div class="erro">
+                <img src="./img/desenho.svg" alt="">
+                <h2>Nenhuma mensagem encontrada</h2>
+                <p>
+                    digite um texto que voçê deseja criptografar e Descriptografar
+                </p>
+                
+            </div>
+            <div class="caixa-texto-msg"><textarea rows="5" type="text-encriptado" id="novo-texto" >
+            
+             </textarea>
+               
+               
+            <button class="bt-copy" onclick="copiar();">Copiar</button>
+
+            </div>
+        </section>
+        
+    </main>
+    <footer>
+        <p>
+        Developer : Lucineia Silva
+        </p>
+        <span>
+            <a target="_blank" href="https://www.linkedin.com/in/lucineia-r-silva-frontend/">
+                <i class="fa-brands fa-linkedin"></i>
+            </a>
+            <a target="_blank" href="https://github.com/LucineiaSilvah">
+                <i class="fa-brands fa-github"></i>
+            </a>
+            <a target="_blank" href="mailto:lucineia.rsilvah@gmail.com">
+                <i class="fa-regular fa-envelope"></i>
+            </a>
+        </span>
+    </footer>
+</div>
+    <script src="script.js"></script>
+</body>
+
+</html>

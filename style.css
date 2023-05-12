@@ -1,0 +1,151 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+
+}
+
+body{
+    background: rgb(62, 221, 208);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.container{
+   padding: 0 30px;
+
+    position: relative;
+    max-width: 1440px;
+    width: 100wh;
+}
+header{
+  
+    padding: 20px;
+}
+
+section{
+    margin: 5%;
+}
+.botoes{
+   margin-top: 50px;
+    width: 500px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    position: relative;
+   justify-content: space-around;
+   
+    
+}
+.bt-reload{
+    position: absolute;
+    top:20px;
+    left: 20px;
+}
+button{
+    width: 200px;
+    height: 60px;
+    border-radius: 20px;
+    border: none;
+    
+  
+  }
+.bt-01{
+    background: rgb(84, 22, 84);
+  }
+  .bt-01 a{
+      color: white;
+  }
+  .bt-02{
+    border: 2px solid  rgb(84, 22, 84);
+ }
+ .bt-02 a {
+    color:  rgb(84, 22, 84);
+ }
+ .bt-copy{
+    position:absolute;
+    right: 70px;
+    bottom: 10px;
+    background:rgba(219, 160, 219, 0.555);
+    color:  rgb(84, 22, 84);
+    border: 3px solid  purple;
+}
+input,textarea{
+
+    border: none;
+    background: transparent;
+    text-align: center;
+}
+input::placeholder{
+    color:  rgb(84, 22, 84);
+}
+#texto{
+    font-size:2em;
+}
+
+.alert{
+    color: #898484;
+    
+}
+.alert i {
+    width: 30px;
+}
+
+.caixa-texto-encriptado{
+    margin-top: 25px;
+    position: absolute;
+    top: 0;
+    right: 5px;
+    background: #fff;
+    border-radius: 20px;
+    padding: 10px;
+    width: 325px;
+    height:450px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    box-shadow: 3px 3px 3px;
+}
+.erro img{
+    width: 250px;
+}
+footer{
+    color: rgb(84, 22, 84);
+    text-align: center;
+  
+    font-weight: bold;
+}
+footer i{
+    width: 50px;
+}
+footer i:hover{
+   transform: scale(1.3);
+}
+@media (max-width:768px) {
+    .container{
+        width: 100wh;
+        max-width:500px;
+        height: 100vh;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+       
+    }
+    header {
+        align-self: start;
+    }
+    .bt-reload{
+        position: relative;
+        margin-bottom: 10px;
+    }
+    .botoes{
+     width: 100%;
+     flex-direction: column;
+     align-items: center;
+
+        
+        
+    }
+    .caixa-texto-encriptado{
+        position: relative;
+    }
+}
