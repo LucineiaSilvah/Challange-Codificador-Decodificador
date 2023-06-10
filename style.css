@@ -18,12 +18,8 @@ body{
     width: 100wh;
 }
 header{
-    height: 100px;
+  
     padding: 20px;
-}
-header img {
-    width: 80px;
-    height: 80px;
 }
 
 section{
@@ -124,7 +120,31 @@ footer i{
 footer i:hover{
    transform: scale(1.3);
 }
-@media (max-width:768px) {
+@media (max-width:800px) {/*tablet*/
+    .container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .caixa-texto-encriptado{
+        position: relative;
+        margin: 0 auto;
+        height: auto;
+    }
+    .erro img{
+        display: none;
+        
+    }
+    .bt-copy{
+        position: relative;
+        right: 1%;
+    }
+    footer{
+       margin-top: 10%;
+    }
+} 
+
+@media (max-width:420px) {/*mobile*/
     .container{
         width: 100wh;
         max-width:500px;
@@ -150,6 +170,14 @@ footer i:hover{
         
     }
     .caixa-texto-encriptado{
+        margin: 0 auto; 
         position: relative;
+        display:flex;
+        
+        width: 70%;
     }
-}
+    .bt-copy{
+        position: relative;
+        right: 1%;
+    }
+} 
