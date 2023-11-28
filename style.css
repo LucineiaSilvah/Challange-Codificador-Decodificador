@@ -7,7 +7,7 @@
 }
 
 body{
-    background: rgb(62, 221, 208);
+    background: rgb(197, 183, 219);
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 .container{
@@ -15,7 +15,7 @@ body{
 
     position: relative;
     max-width: 1440px;
-    width: 100wh;
+    width: 100vw;
 }
 header{
   
