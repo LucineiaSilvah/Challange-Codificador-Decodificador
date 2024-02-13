@@ -7,7 +7,7 @@
 }
 
 body{
-    background: rgb(197, 183, 219);
+    background: rgb(197, 183, 219) url('/img/bg2.jpg');
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 .container{
